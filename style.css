@@ -1,0 +1,46 @@
+body{
+    background-image: url(./pay-1036469_1280.webp);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container{
+    background-image: linear-gradient(pink,rgb(242, 242, 190),black);
+    text-align: center;
+    width: 300px;
+    margin: 80px auto;
+    border: 3px solid purple;
+    box-shadow:0px 0px 2px yellowgreen;
+}
+   
+
+.btn{
+    background-color: rgb(185, 23, 102);
+    color:antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: rgb(13, 182, 212);
+    color:rgb(26, 25, 24);
+    padding: 20px;
+    border-radius: 80px;
+}
+h1{
+    color: #850f54;
+}
+@media only screen and (max-width: 480px) {
+    .container {
+      width: 95%;
+      margin: 10px auto;
+    }
+    .btn {
+      padding: 5px;
+      border-radius: 30px;
+    }
+    .btn:hover {
+      padding: 10px;
+      border-radius: 50px;
+    }
+  }
+  
+  
